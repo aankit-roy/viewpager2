@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
         list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.road));
         list.add(new slider_datacontainer(R.drawable.tree));
-        list.add(new slider_datacontainer(R.drawable.road1920));
+        println("change 1 in master branch");
+//        list.add(new slider_datacontainer(R.drawable.road1920));
 
         viewPager.setAdapter(new slider_adapter(list,viewPager));
         //for here ,setting some attractive animation to viewpager;
