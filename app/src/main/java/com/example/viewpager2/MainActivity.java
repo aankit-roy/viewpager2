@@ -1,5 +1,7 @@
 package com.example.viewpager2;
 
+import static java.sql.DriverManager.println;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         list.add(new slider_datacontainer(R.drawable.road));
         list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.road1920));
+        println(" first something  in third branch" );
+        println("second something in third branch" );
 
         viewPager.setAdapter(new slider_adapter(list,viewPager));
         //for here ,setting some attractive animation to viewpager;
