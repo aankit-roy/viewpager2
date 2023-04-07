@@ -1,5 +1,7 @@
 package com.example.viewpager2;
 
+import static java.sql.DriverManager.println;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         list=new ArrayList<>();
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
+        println("something in second branch");
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.river));
