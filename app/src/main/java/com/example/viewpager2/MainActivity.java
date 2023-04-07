@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new slider_datacontainer(R.drawable.road1920));
         println(" first something  in third branch" );
         println("second something in third branch" );
+        println("change in third branch");
 
         viewPager.setAdapter(new slider_adapter(list,viewPager));
         //for here ,setting some attractive animation to viewpager;
