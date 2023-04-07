@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         list=new ArrayList<>();
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
+        list.add(new slider_datacontainer(R.drawable.road1920));
+        list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.river));
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
@@ -52,5 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
            viewPager.setPageTransformer(compositePageTransformer);
+
     }
 }
