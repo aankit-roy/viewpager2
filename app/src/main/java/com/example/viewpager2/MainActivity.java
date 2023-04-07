@@ -2,7 +2,7 @@ package com.example.viewpager2;
 
 import static java.sql.DriverManager.println;
 
-import static java.sql.DriverManager.println;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         list=new ArrayList<>();
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
-        println("something in second branch");
+//        println("something in second branch");
         list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.river));
@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
         list.add(new slider_datacontainer(R.drawable.tree));
         list.add(new slider_datacontainer(R.drawable.road));
         list.add(new slider_datacontainer(R.drawable.tree));
-        println("change 1 in master branch");
+//        println("change 1 in master branch");
 //        list.add(new slider_datacontainer(R.drawable.road1920));
         list.add(new slider_datacontainer(R.drawable.road1920));
-        println(" first something  in third branch" );
-        println("second something in third branch" );
-        println("change in third branch");
+//        println(" first something  in third branch" );
+//        println("second something in third branch" );
+//        println("change in third branch");
 
         viewPager.setAdapter(new slider_adapter(list,viewPager));
         //for here ,setting some attractive animation to viewpager;
