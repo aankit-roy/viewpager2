@@ -1,7 +1,5 @@
 package com.example.viewpager2;
 
-import static java.sql.DriverManager.println;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -54,6 +52,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
            viewPager.setPageTransformer(compositePageTransformer);
-           println("this message used to revert");
     }
 }
