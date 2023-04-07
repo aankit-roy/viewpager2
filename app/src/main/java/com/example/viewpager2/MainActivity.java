@@ -64,5 +64,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
            viewPager.setPageTransformer(compositePageTransformer);
+           println("some changes in my colone project" );
     }
 }
